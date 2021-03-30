@@ -1,5 +1,5 @@
 ﻿/*
-* Created by Fernando Delie
+* Created by Readyfreddy33
    
 Summary:
 Program using while-loop that will run through a wordlist from a given file 
