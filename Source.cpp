@@ -8,8 +8,11 @@ and that will delete words based on its character length that the user sets it t
 
 Instructions:
 Launch CPP file
-Input length of character you want pr
+Input length of character you want to delete
 Add the wordlist (preferably drag and drop)
+Enter a new name for the wordlist
+
+**THE FILE WILL BE SAVED ON YOUR VSCODE REPO**
 
 
 */
