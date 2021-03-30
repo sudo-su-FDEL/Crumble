@@ -11,7 +11,7 @@ Launch CPP file
 Input length of character you want to delete
 Add the wordlist (preferably drag and drop)
 Enter a name of your new wordlist
-Should save on your repos for VScode
+The file should be saved on your repos for the VScode
 
 
 
