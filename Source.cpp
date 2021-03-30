@@ -17,13 +17,10 @@ Enter a new name for the wordlist
 
 */
 
-
 #include <iostream>
 #include <string>
 #include <fstream>
 using namespace std;
-
-
 
 void deleteWords(int del_L) {
 
@@ -37,8 +34,6 @@ void deleteWords(int del_L) {
     cin >> newfile;
     ofstream OutFile(newfile);       
    
-   
-
     while (getline(WordIFILE, StoreWord)) {
         if (StoreWord.length() != del_L) {
             OutFile << StoreWord << endl;
