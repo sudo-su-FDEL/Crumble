@@ -1,5 +1,5 @@
 ﻿/*
-* Created by Readyfreddy33
+* Created by sudo-Hyperion
    
 Summary:
 Program using while-loop that will run through a wordlist from a given file 
