@@ -21,7 +21,7 @@ Launch CPP file
 Input length of character you want to delete
 Add the wordlist (preferably drag and drop)
 Enter a name of your new wordlist
-The file should be saved on your repos for the Visual Studio Code 2019
+The file should be saved on your repos for the Visual Studio 2019
 
 
 Download and build file
