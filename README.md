@@ -7,6 +7,7 @@ I tested this on Visual Studio Code 2019, I am positive that it will work with o
 
 
 **SUMMARY:**
+
 Program using while-loop that will run through a wordlist from a given file 
 and that will delete words or really long words, based on its character length that the user sets it to. 
 
@@ -16,8 +17,9 @@ One good scenario of when to implement this tool is when you know or have an ide
 
 
 **INSTRUCTIONS:**
+
 Launch CPP file
-**Once prompt open**
+Once prompt open
 Input length of character you want to delete
 Add the wordlist (preferably drag and drop)
 Enter a name of your new wordlist
