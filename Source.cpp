@@ -12,7 +12,7 @@ Input length of character you want to delete
 Add the wordlist (preferably drag and drop)
 Enter a new name for the wordlist
 
-**THE FILE WILL BE SAVED ON YOUR VSCODE REPO**
+**THE FILE WILL BE SAVED ON YOUR VISUAL STUDIO CODE 2019 REPO**
 
 
 */
