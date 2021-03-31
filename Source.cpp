@@ -22,7 +22,7 @@ Enter a new name for the wordlist
 #include <fstream>
 using namespace std;
 
-void deleteWords(int del_L) {
+void delWords(int del_L) {
 
     string StoreWord; 
     string filename, newfile;
@@ -54,10 +54,10 @@ void deleteWords(int del_L) {
 int main() {
     
     int del_L = 0; 
-    cout << "Enter the length of the StoreWords to be deleted: ";
+    cout << "Enter the length of the characters to be deleted: ";
     cin >> del_L;
 
-    deleteWords(del_L);
+    delWords(del_L);
 
     return 0;
 }
