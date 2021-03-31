@@ -4,9 +4,11 @@
 **WINDOWS ONLY**
 I tested this on Visual Studio Code 2019, I am positive that it will work with other IDE's however I am unsure if your new file will save on your IDE's repo directory or somewhere else.
 
+
 Summary:
 Program using while-loop that will run through a wordlist from a given file 
-and that will delete words based on its character length that the user sets it to.
+and that will delete words based on its character length that the user sets it to. One good scenario of when to implement this tool is when you know or have an idea of how long a password is, so when you download (or create) wordlists, you are able to delete short words that are useless to you and take up storage in your USB or computer.
+
 
 
 Instructions:
