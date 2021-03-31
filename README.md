@@ -45,7 +45,7 @@ Enter a new name for wordlist
 
 ![enter-new-file-name](https://user-images.githubusercontent.com/58496330/113193283-69b75580-9225-11eb-99ff-6f09df492314.PNG)
 
-Find the path of your new file, **WILL BE LOCATED IN YOUR REPO FILE IF YOU'RE USING VISUAL STUDIO CODE 2019**
+Find the path of your new file, **WILL BE LOCATED IN YOUR REPO FILE IF YOU'RE USING VISUAL STUDIO 2019**
 
 ![find-path](https://user-images.githubusercontent.com/58496330/113193445-95d2d680-9225-11eb-8ae7-a71d330ed6be.PNG)
 
