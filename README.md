@@ -40,9 +40,6 @@ Enter a name of your new wordlist
 ![enter-new-file-name](https://user-images.githubusercontent.com/58496330/113193283-69b75580-9225-11eb-99ff-6f09df492314.PNG)
 
 
-
-![find-path](https://user-images.githubusercontent.com/58496330/113193445-95d2d680-9225-11eb-8ae7-a71d330ed6be.PNG)
-
 **Results**
 
 ![file-after-delete](https://user-images.githubusercontent.com/58496330/113193473-9c614e00-9225-11eb-97c0-442e9d46aaed.PNG)
