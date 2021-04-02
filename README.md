@@ -23,12 +23,8 @@ Once prompt open
 Input length of character you want to delete
 Add the wordlist (preferably drag and drop)
 Enter a name of your new wordlist
-The file should be saved on your repos for the Visual Studio 2019
+**THE FILE WILL APPEAR WHERE THE PROGRAM IS LOCATED**
 
-
-**Download and build file**
-
-![build](https://user-images.githubusercontent.com/58496330/113201709-70e36100-922f-11eb-92ca-e7785a4a3173.PNG)
 
 
 **Enter enter length**
