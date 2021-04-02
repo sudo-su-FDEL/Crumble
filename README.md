@@ -1,10 +1,7 @@
 
 # Crumble
 
-**WINDOWS ONLY, NOT TESTED ON MACOS**
-
-I tested this on Visual Studio 2019, I am positive that it will work with other IDE's however I am unsure if your new file will save on your IDE's repo directory or somewhere else.
-
+**WINDOWS, NOT TESTED ON MACOS**
 
 **SUMMARY:**
 
@@ -18,11 +15,10 @@ One good scenario of when to implement this tool is when you know or have an ide
 
 **INSTRUCTIONS:**
 
-Launch CPP file
-Once prompt open
 Input length of character you want to delete
 Add the wordlist (preferably drag and drop)
 Enter a name of your new wordlist
+
 **THE FILE WILL APPEAR WHERE THE PROGRAM IS LOCATED**
 
 
@@ -43,7 +39,7 @@ Enter a name of your new wordlist
 
 ![enter-new-file-name](https://user-images.githubusercontent.com/58496330/113193283-69b75580-9225-11eb-99ff-6f09df492314.PNG)
 
-**Find the path of your new file,** **WILL BE LOCATED IN YOUR REPO FILE IF YOU'RE USING VISUAL STUDIO 2019**
+
 
 ![find-path](https://user-images.githubusercontent.com/58496330/113193445-95d2d680-9225-11eb-8ae7-a71d330ed6be.PNG)
 
