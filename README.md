@@ -25,7 +25,9 @@ Enter a name of your new wordlist
 
 **Enter enter length**
 
-![enter-char-length](https://user-images.githubusercontent.com/58496330/113193126-3d033e00-9225-11eb-87ff-9d5cfcb5dde7.PNG)
+![to-delete](https://user-images.githubusercontent.com/58496330/113446055-a1a4d100-93bc-11eb-9eff-674239de9022.PNG)
+
+
 
 **Find your wordlist**
 
@@ -33,11 +35,13 @@ Enter a name of your new wordlist
 
 **Attach it**
 
-![enter-file-path](https://user-images.githubusercontent.com/58496330/113193217-54dac200-9225-11eb-8789-81d84d487b6e.PNG)
+![attach-it](https://user-images.githubusercontent.com/58496330/113446036-92be1e80-93bc-11eb-95c3-c6329c5e0914.PNG)
+
 
 **Enter a new name for wordlist**
 
-![enter-new-file-name](https://user-images.githubusercontent.com/58496330/113193283-69b75580-9225-11eb-99ff-6f09df492314.PNG)
+![to-create](https://user-images.githubusercontent.com/58496330/113446049-99e52c80-93bc-11eb-9773-aaf213f94b4a.PNG)
+
 
 
 **Results**
