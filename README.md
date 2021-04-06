@@ -16,7 +16,9 @@ One good scenario of when to implement this tool is when you know or have an ide
 **INSTRUCTIONS:**
 
 Input length of character you want to delete
+
 Add the wordlist (preferably drag and drop)
+
 Enter a name of your new wordlist
 
 **THE FILE WILL APPEAR WHERE THE PROGRAM IS LOCATED**
