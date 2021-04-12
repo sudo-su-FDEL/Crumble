@@ -1,7 +1,7 @@
 
 # Crumble
 
-**WINDOWS, NOT TESTED ON MACOS**
+**NOT TESTED ON MACOS**
 
 **SUMMARY:**
 
