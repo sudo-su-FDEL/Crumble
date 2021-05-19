@@ -18,7 +18,8 @@ void delWords(int del_L) {
     cin >> newfile;
     //file closed
     ofstream OutFile(newfile);
-
+    
+    //looks for words with specified letter count
     while (getline(WordIFILE, StoreWord)) {
         if (StoreWord.length() != del_L) {
             OutFile << StoreWord << endl;
