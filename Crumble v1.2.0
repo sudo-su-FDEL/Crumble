@@ -1,0 +1,179 @@
+#include<iostream>
+#include<string>
+#include<fstream>
+
+using namespace std;
+
+void delWords(int del_L)
+{
+
+	string StoreWord;
+	string filename, newfile;
+
+
+	cout << "Enter the length of the characters to be deleted: ";
+	cin >> del_L;
+
+	cout << "Please enter or copy and paste the file" << endl;
+	cin >> filename;
+
+	ifstream WordIFILE(filename);
+
+	cout << "Please enter the name for your new file" << endl;
+	cin >> newfile;
+
+	ofstream oFile(newfile);
+
+	while (getline(WordIFILE, StoreWord))
+	{
+		if (StoreWord.length() != del_L)
+		{
+
+			oFile << StoreWord << endl;
+
+		}
+	}
+	WordIFILE.close();
+	oFile.close();
+
+	while (getline(WordIFILE, StoreWord))
+	{
+
+		oFile << StoreWord << endl;
+
+	}
+
+}
+
+void merge2(string MFile2)
+{
+	
+	string file1name, file2name, file3name;
+	cout << "Enter name of first file: ";
+	cin >> file1name;
+	cout << "Enter name of second file: ";
+	cin >> file2name;
+	cout << "Enter name of output file: ";
+	cin >> file3name;
+
+	ofstream oFile(file3name.c_str());
+	
+	string word1, word2;
+	ifstream inFileOne(file1name.c_str());
+	while (inFileOne >> word1) {
+		
+		ifstream inFileTwo(file2name.c_str());
+		
+		while (inFileTwo >> word2) {
+			
+			oFile << word1 << word2 << endl;
+		}
+		
+		inFileTwo.close();
+	}
+	inFileOne.close();
+	oFile.close();
+	
+}
+
+void merge3(string MFile3)
+{
+	
+	string file1name, file2name,file3name, outfilename, word1, word2, word3;
+	cout << "Enter name of first file: ";
+	cin >> file1name;
+	cout << "Enter name of second file: ";
+	cin >> file2name;
+	cout << "Enter name of third file: ";
+	cin >> file3name;
+	cout << "Enter name of output file: ";
+	cin >> outfilename;
+
+	
+	ofstream inFileFour(outfilename.c_str());
+	
+	ifstream inFileOne(file1name.c_str());
+	while (inFileOne >> word1) {
+		ifstream inFileTwo(file2name.c_str());
+		
+
+		while (inFileTwo >> word2) {
+
+			ifstream inFileThree(file2name.c_str());
+		
+			while (inFileThree >> word3) {
+				
+
+				inFileFour << word1 << word2 << word3 << endl;
+
+			}
+			inFileThree.close();
+		}
+
+		inFileTwo.close();
+		
+	}
+	inFileOne.close();
+	inFileFour.close();
+	
+}
+
+
+int main() {
+	int del_L = 0;
+	string MFile2,MFile3;
+	char choices;
+
+	do {
+		cout << "\n\nCRUMBLE" << endl;
+		cout << "By: " << endl;
+		cout << "sudo-su-FDEL" << endl;
+		cout << "----------------------------------------------------------";
+		cout << "\n [A] Delete words based on length in a wordlist          |\t";
+		cout << "\n [B] Merge two wordlists                                 |\t";
+		cout << "\n [C] Merge three wordlists                               |\t";
+		cout << "\n [D] Exit                                                |" << endl;
+		cout << "----------------------------------------------------------" << endl;
+		cout << "Input: ";
+		cin >> choices;
+		system("cls");
+		switch (choices)
+		{
+		case 'A':
+		case 'a':
+			cout << "You have chosen to delete characters based on length" << endl;
+			delWords(del_L);
+			system("cls");
+
+		case 'B':
+		case 'b':
+			cout << "You have chosen to merge 2 wordlists" << endl;
+			merge2(MFile2);
+			system("cls");
+			break;
+
+
+		case 'C':
+		case 'c':
+			cout << "You have chosen to merge 3 wordlists" << endl;
+			merge3(MFile3);
+			system("cls");
+			break;
+
+
+		case 'D':
+		case 'd':
+			break;
+
+
+		default:
+			cout << "Please select a letter from the menu";
+			cin.ignore();
+			break;
+
+		}
+
+	} while (!((choices == 'd') || (choices == 'D')));
+
+	return 0;
+}
