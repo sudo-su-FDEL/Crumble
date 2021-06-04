@@ -10,11 +10,13 @@ void delWords(int del_L)
 	string StoreWord;
 	string filename, newfile;
 
-
+	cout << endl << endl;
+	cout << "**Drag and drop is preffered**" << endl;
+	
 	cout << "Enter the length of the characters to be deleted: ";
 	cin >> del_L;
 
-	cout << "**Drag and drop is preffered**" << endl;
+	
 	cout << "Please enter the file" << endl;
 	cin >> filename;
 
@@ -50,6 +52,7 @@ void merge2(string MFile2)
 {
 	
 	string file1name, file2name, file3name;
+	cout << endl << endl;
 	cout << "**Drag and drop is preffered**" << endl;
 	cout << "Enter name of first file: ";
 	cin >> file1name;
@@ -82,6 +85,7 @@ void merge3(string MFile3)
 {
 	
 	string file1name, file2name,file3name, outfilename, word1, word2, word3;
+	cout << endl << endl;
 	cout << "**Drag and drop is preffered**" << endl;
 	cout << "Enter name of first file: ";
 	cin >> file1name;
