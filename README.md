@@ -4,7 +4,7 @@
 **WINDOWS ONLY**
 
 **SUMMARY:**
-SUMMARY:
+
 
 Program using while-loop that will run through a wordlist from a given file and that will delete words or really long words, based on its character length that the user sets it to.
 
