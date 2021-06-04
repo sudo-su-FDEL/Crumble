@@ -3,6 +3,8 @@
 
 **WINDOWS ONLY**
 
+** Updated to v1.2.0 **
+
 **SUMMARY:**
 
 
