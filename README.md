@@ -29,5 +29,9 @@ One good scenario of when to implement this tool is when you know or have an ide
 
 **Merge 3 Wordlists**
 
+![merge3wordlists](https://user-images.githubusercontent.com/58496330/120822451-0b0ba200-c51c-11eb-9682-c3e09259b93e.PNG)
+
+
+![merge3](https://user-images.githubusercontent.com/58496330/120822466-0e9f2900-c51c-11eb-94c4-e41f007b7e64.PNG)
 
 
