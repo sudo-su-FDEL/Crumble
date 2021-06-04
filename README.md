@@ -28,6 +28,6 @@ One good scenario of when to implement this tool is when you know or have an ide
 ![newcrumble2](https://user-images.githubusercontent.com/58496330/120747944-8bec7e80-c4c7-11eb-99f2-5998648dbb85.PNG)
 
 **Merge 3 Wordlists**
-![CRUMBLEMERGE3](https://user-images.githubusercontent.com/58496330/120748177-f7365080-c4c7-11eb-96ad-9e36aafd5e4b.PNG)
+
 
 
