@@ -1,5 +1,5 @@
 
-# Crumble
+# Crumble v1.2.0
 
 **WINDOWS ONLY**
 
