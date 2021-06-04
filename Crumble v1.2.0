@@ -14,7 +14,8 @@ void delWords(int del_L)
 	cout << "Enter the length of the characters to be deleted: ";
 	cin >> del_L;
 
-	cout << "Please enter or copy and paste the file" << endl;
+	cout << "**Drag and drop is preffered**" << endl;
+	cout << "Please enter the file" << endl;
 	cin >> filename;
 
 	ifstream WordIFILE(filename);
@@ -49,6 +50,7 @@ void merge2(string MFile2)
 {
 	
 	string file1name, file2name, file3name;
+	cout << "**Drag and drop is preffered**" << endl;
 	cout << "Enter name of first file: ";
 	cin >> file1name;
 	cout << "Enter name of second file: ";
@@ -80,6 +82,7 @@ void merge3(string MFile3)
 {
 	
 	string file1name, file2name,file3name, outfilename, word1, word2, word3;
+	cout << "**Drag and drop is preffered**" << endl;
 	cout << "Enter name of first file: ";
 	cin >> file1name;
 	cout << "Enter name of second file: ";
@@ -129,6 +132,7 @@ int main() {
 		cout << "By: " << endl;
 		cout << "sudo-su-FDEL" << endl;
 		cout << "----------------------------------------------------------";
+		cout << "\n Choose an option:                                       |\t";
 		cout << "\n [A] Delete words based on length in a wordlist          |\t";
 		cout << "\n [B] Merge two wordlists                                 |\t";
 		cout << "\n [C] Merge three wordlists                               |\t";
