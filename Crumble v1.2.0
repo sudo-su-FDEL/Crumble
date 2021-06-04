@@ -106,7 +106,7 @@ void merge3(string MFile3)
 
 		while (inFileTwo >> word2) {
 
-			ifstream inFileThree(file2name.c_str());
+			ifstream inFileThree(file3name.c_str());
 		
 			while (inFileThree >> word3) {
 				
