@@ -1,31 +1,54 @@
 
 # Crumble 
 
-**WINDOWS ONLY**
-
-**Updated to v1.2.0** 
-
-**SUMMARY:**
-
-
-Program using while-loop that will run through a wordlist from a given file and that will delete words or really long words, based on its character length that the user sets it to.
-
-One good scenario of when to implement this tool is when you know or have an idea of how long a password is, so when you download (or create) wordlists, you are able to delete short words that are useless to you and take up storage in your USB or computer.
+A menu Wordlist generator for pentesting/password auditing using different password techniques.
+Made this program entirely to complement other password cracking tools such as hashcat and john the ripper (to name a few).
+Another reason I made this is because other programs did not have what I was looking for, outdated, did not want to memorize commands ,and did not want 
+my computing performance to hinder because of VM.
 
 
-** Drag and Drop **
-
-![oldercrumble](https://user-images.githubusercontent.com/58496330/120830846-8cffc900-c524-11eb-87d0-e605f1f0cc97.PNG)
+**Features**
 
 
-** Choose wordlist ** 
+* Create wordlist from scratch
+* Merge two or three wordlists
+* Replace characters in a wordlist
+* Swap 
+* Permute
+* Wordlist Analysis
+* And more
 
-![choosewordlist](https://user-images.githubusercontent.com/58496330/120831041-bfa9c180-c524-11eb-88d0-da451b906129.PNG)
+
+# Usage
+1. Download the files (repo or download zip)
+2. Compile the files
+3. Run the program
+4. Type letters according to menu
+
+**When adding files,you may drag and drop on to the terminal or if you have any issues with drag and drop, you may type in the name of the file ending with ".txt" just make sure that the program is in the same folder or directory. Your output files will also appear where the program is located.**
 
 
-**Results **
+# Screenshots
+**Menu**
+![menu](https://user-images.githubusercontent.com/58496330/124654696-7b337d80-de64-11eb-9ded-a0e567c8caad.PNG)
 
-![wordlistresult](https://user-images.githubusercontent.com/58496330/120831107-d18b6480-c524-11eb-8a02-3584c7dc9832.PNG)
+**Subdirectories**
+![subdirectories](https://user-images.githubusercontent.com/58496330/124654701-7e2e6e00-de64-11eb-8dd7-562ab1cdb3bc.PNG)
+
+**Wordlist analysis**
+![analysis](https://user-images.githubusercontent.com/58496330/124655887-137e3200-de66-11eb-9603-014820f2bda2.PNG)
+![count](https://user-images.githubusercontent.com/58496330/124655907-18db7c80-de66-11eb-85ae-d463ae716840.PNG)
 
 
-**File is located wherever you have the exe file **
+
+
+
+
+
+
+
+
+
+
+
+
