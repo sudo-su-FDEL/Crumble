@@ -1,5 +1,5 @@
 
-#include <windows.h> // for 'system("color 08")' :D
+#include <windows.h> // for 'system("color 08")'
 #include <iostream>
 //headers
 #include "createwordlist.h"
