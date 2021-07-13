@@ -7,7 +7,7 @@ Another reason I made this is because other programs did not have what I was loo
 my computing performance to hinder because of VM.
 
 
-**Features**
+# Features
 
 
 * Create wordlist from scratch
