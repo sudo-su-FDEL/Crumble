@@ -41,10 +41,9 @@ my computing performance to hinder because of VM.
 
 
 
+# Disclaimer
 
-
-
-
+As of now, code has some bugs I am will fix them as time goes by, anyone is more than welcome to fix the bugs if they would like to contribute
 
 
 
