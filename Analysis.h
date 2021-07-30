@@ -11,7 +11,7 @@
 
 using namespace std;
 
-//This unctio will delete words based on the character length that the user 
+//This function will delete words based on the character length that the user 
 //sets it to.
 // User is allowed to have multiple inputs 
 
