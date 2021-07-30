@@ -39,7 +39,8 @@ my computing performance to hinder because of VM.
 **Wordlist analysis**
 ![analysis](https://user-images.githubusercontent.com/58496330/127582215-e0252b02-04f8-42eb-a977-170a13500e2c.PNG)
 
-![count](https://user-images.githubusercontent.com/58496330/124655907-18db7c80-de66-11eb-85ae-d463ae716840.PNG)
+![wordlist](https://user-images.githubusercontent.com/58496330/127584228-8d06f8db-772e-4844-ad9c-6ddd318038e6.PNG)
+
 
 
 
