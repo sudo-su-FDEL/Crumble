@@ -30,13 +30,15 @@ my computing performance to hinder because of VM.
 
 # Screenshots
 **Menu**
-![menu](https://user-images.githubusercontent.com/58496330/124654696-7b337d80-de64-11eb-9ded-a0e567c8caad.PNG)
+![menu](https://user-images.githubusercontent.com/58496330/127582205-bfac04a5-a441-4e54-94a8-4c2f7307f9d8.PNG)
+
 
 **Subdirectories**
 ![subdirectories](https://user-images.githubusercontent.com/58496330/124654701-7e2e6e00-de64-11eb-8dd7-562ab1cdb3bc.PNG)
 
 **Wordlist analysis**
-![analysis](https://user-images.githubusercontent.com/58496330/124655887-137e3200-de66-11eb-9603-014820f2bda2.PNG)
+![analysis](https://user-images.githubusercontent.com/58496330/127582215-e0252b02-04f8-42eb-a977-170a13500e2c.PNG)
+
 ![count](https://user-images.githubusercontent.com/58496330/124655907-18db7c80-de66-11eb-85ae-d463ae716840.PNG)
 
 
