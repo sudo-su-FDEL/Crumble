@@ -86,7 +86,6 @@ void delWords(int del_L)
 
 // This function will use getline to detect what line is 0 characters
 // for every line that is x>=1 characters, will grab the word and place it in another file
-// that user names.
 
 void del_empty_lines(int emt)
 {
