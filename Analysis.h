@@ -150,7 +150,7 @@ void ch_count(string wCount)
 
 	ofstream fiout(infilename + "-Counted"); //file will appear with endinf of "-Counted"
 
-	int count[20] = { 0 }; //amount of word space to count
+	int count[500] = { 0 }; //amount of word space to count
 	string word;
 	int len;
 
