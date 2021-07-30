@@ -3,7 +3,7 @@
 
 A menu wordlist generator for pentesting/auditing passwords using different password techniques.
 Made this program to specifically complement other password cracking tools such as hashcat and john the ripper.
-Another reason I made this is because other programs did not have what I was looking for, outdated, did not want to memorize commands ,and did not want 
+Another reason I made this is because other programs did not have what I was looking for were, outdated, did not want to memorize commands ,and did not want 
 my computing performance to hinder because of VM.
 
 
