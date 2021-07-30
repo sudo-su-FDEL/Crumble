@@ -1,22 +1,24 @@
 
 #include <windows.h> // for 'system("color 08")'
 #include <iostream>
+
 //headers
 #include "createwordlist.h"
 #include "editwordlists.h"
 #include "Numbers.h"
 #include "Analysis.h"
-
 using namespace std;
 
 
 int main()
 {
-	system("color 08");
-	int del_L = 0;
-	string MFile2, MFile3, perm, rplace, wCount, s, Cr_list;
-	int Rnums = 0;
 
+	system("color 08");
+	//Variables for main
+	int del_L = 0;
+	int emt = 0;
+	string MFile2, MFile3, perm, rplace, wCount, s, Cr_list, cap, low;
+	int Rnums = 0;
 	unsigned num = 9999999;
 	char choices;
 
@@ -31,11 +33,13 @@ int main()
 		cout << "\n [B] Edit Wordlists                                       |\t";
 		cout << "\n [C] Numbers for Wordlists                                |\t";
 		cout << "\n [D] Analysis                                             |\t";
+		cout << "\n                                                          |\t";
 		cout << "\n [Z] Exit                                                 |" << endl;
 		cout << "-----------------------------------------------------------" << endl;
 		cout << "Input: ";
 		cin >> choices;
 		system("cls");
+
 		switch (choices)
 		{
 
@@ -57,6 +61,7 @@ int main()
 				case 'A':
 				case 'a':
 					//create wordlist
+					system("cls");
 					Createlist(Cr_list);
 					system("pause");
 					system("cls");
@@ -66,6 +71,7 @@ int main()
 				case 'B':
 				case 'b':
 					//merge 2
+					system("cls");
 					merge2(MFile2);
 					system("cls");
 					break;
@@ -74,9 +80,8 @@ int main()
 				case 'C':
 				case 'c':
 					//merge 3
+					system("cls");
 					merge3(MFile3);
-
-
 					system("cls");
 					break;
 
@@ -88,10 +93,14 @@ int main()
 
 
 				default:
+
 					system("cls");
-					cout << "Please select a letter from the menu";
+					cout << "Please select a letter from the menu\n";
 					cin.ignore();
 					break;
+
+
+
 				}
 
 
@@ -104,13 +113,15 @@ int main()
 		case 'B':
 		case 'b':
 		{
-
+			system("cls");
 			char Schar;
 			do {
-
+				cout << "'*' manually input word(s) input\n";
 				cout << "\n [A] Replace letters";
-				cout << "\n [B] Swap";
-				cout << "\n [B] Permute\n";
+				cout << "\n [B] Swap*";
+				cout << "\n [C] Permute*";
+				cout << "\n [D] Capitalize first letter";
+				cout << "\n [E] Lowercase first letter\n";
 				cout << "\n [Z] Go back\n";
 				cout << "Input: ";
 				cin >> Schar;
@@ -121,9 +132,8 @@ int main()
 				case 'A':
 				case 'a':
 
-
+					system("cls");
 					replace(rplace);
-
 					system("cls");
 					break;
 
@@ -131,9 +141,8 @@ int main()
 				case 'B':
 				case 'b':
 
-
+					system("cls");
 					swap(s);
-
 					system("cls");
 					break;
 
@@ -141,10 +150,21 @@ int main()
 
 				case 'C':
 				case 'c':
-
+					system("cls");
 					permute(perm);
+					system("cls");
+					break;
 
+				case 'D':
+				case 'd':
+					system("cls");
+					capitalize(cap);
+					system("cls");
+					break;
 
+				case 'E':
+				case 'e':
+					lowercase(low);
 					system("cls");
 					break;
 
@@ -158,7 +178,7 @@ int main()
 
 				default:
 					system("cls");
-					cout << "Please select a letter from the menu";
+					cout << "Please select a letter from the menu\n";
 					cin.ignore();
 					break;
 				}
@@ -167,10 +187,11 @@ int main()
 			} while (!((Schar == 'z') || (Schar == 'Z')));
 			break;
 		}
-		
+
 		case 'C':
 		case 'c':
 		{
+			system("cls");
 			//Numbers
 			char Numbers;
 			do {
@@ -187,19 +208,16 @@ int main()
 				case 'A':
 				case 'a':
 
-
+					system("cls");
 					GenNum(num);
-
 					system("cls");
 					break;
 
 
 				case 'B':
 				case 'b':
-
+					system("cls");
 					NumRange(Rnums);
-
-
 					system("cls");
 					break;
 
@@ -213,7 +231,7 @@ int main()
 
 				default:
 					system("cls");
-					cout << "Please select a letter from the menu";
+					cout << "Please select a letter from the menu\n";
 					cin.ignore();
 					break;
 				}
@@ -227,12 +245,13 @@ int main()
 		case 'D':
 		case 'd':
 		{
-
+			system("cls");
 			char Analysis;
 			do {
 
 				cout << "\n [A] Delete words based on character length";
-				cout << "\n [B] Count words\n";
+				cout << "\n [B] Delete empty lines";
+				cout << "\n [C] Count words\n";
 				cout << "\n [Z] Go back\n";
 				cout << "Input: ";
 				cin >> Analysis;
@@ -243,23 +262,29 @@ int main()
 				case 'A':
 				case 'a':
 					//delete words
+
 					delWords(del_L);
-
-
-
 					system("cls");
 					break;
 
 
 				case 'B':
 				case 'b':
-					//count words
-					ch_count(wCount);
-
+					//delete empty lines
+					system("cls");
+					del_empty_lines(emt);
 					system("cls");
 					break;
 
 
+
+				case 'C':
+				case 'c':
+					//count words
+					system("cls");
+					ch_count(wCount);
+					system("cls");
+					break;
 
 				case 'Z':
 				case 'z':
@@ -270,21 +295,24 @@ int main()
 					break;
 
 				default:
+					//validating user
 					system("cls");
-					cout << "Please select a letter from the menu";
+					cout << "Please select a letter from the menu\n";
 					cin.ignore();
 					break;
 				}
 
 
 			} while (!((Analysis == 'z') || (Analysis == 'Z')));
+
 			break;
 		}
 
 		default:
-			cout << "Please select a letter from the menu";
-			cin.ignore();
-			break;
+			//validating user for whole menu
+			cout << endl;
+			cout << "Please select a letter from the menu\n" << endl;
+
 
 		}
 
