@@ -155,7 +155,7 @@ void replace(string rplace)
 
 //The capitalize function will capitalize the first letter of every word and the whole word
 //similartly, for the lowercase function, the exact method was applied
-//except the method "tolower"ss
+//except the method "tolower"
 //these two functions have a switch statement that has two options, First letter and whole word.
 
 
@@ -214,7 +214,7 @@ void capitalize(string cap)
 			inputfile.open(inputname);
 
 
-			outputfile.open(inputname + " -capitalized");// wrie to file
+			outputfile.open(inputname + " -capitalized");// write to file
 			if (inputfile.is_open()) {
 				string Line;
 				// get line from inputstring
