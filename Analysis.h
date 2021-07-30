@@ -24,12 +24,14 @@ void delWords(int del_L)
 
 	//string line;
 
-	cout << "Please enter the file to delete characters: " << endl; // User applies the filename
+	cout << "Please enter the file to delete characters: "; // User applies the filename
 	cin >> filename;
 
 	fin.open(filename);
 
-	cout << "Enter the characters to be deleted" << endl;
+	cout << "\nEnter the characters to be deleted" << endl;
+	cout << "Seperate using spaces\n\nEXAMPLE: 5 7 10" << endl;
+	cout << "Input: ";
 	int num;
 	vector<int> v;
 	char c = 'a';
