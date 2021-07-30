@@ -262,7 +262,7 @@ int main()
 				case 'A':
 				case 'a':
 					//delete words
-
+					system("cls");
 					delWords(del_L);
 					system("cls");
 					break;
