@@ -1,5 +1,5 @@
 
-#include <windows.h> // for 'system("color 08")'
+
 #include <iostream>
 
 //headers
@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
 
-	system("color 08");
+	
 	//Variables for main
 	int del_L = 0;
 	int emt = 0;
