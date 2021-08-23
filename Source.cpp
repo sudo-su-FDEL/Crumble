@@ -117,8 +117,8 @@ void replace(string rplace)
 	string filename, txtfile;
 	ofstream file;
 
-	cout << "Enter name for new file";
-	cin >> filename >> endl;
+	cout << "Enter name for new file" << endl;
+	cin >> filename;
 	cout << endl;
 
 	file.open(filename + "-Replaced", ios::out);
