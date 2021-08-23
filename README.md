@@ -25,7 +25,7 @@ my computing performance to hinder because of VM.
 3. Run the program
 4. Type letters according to menu
 
-**When adding files,you may drag and drop on to the terminal or if you have any issues with drag and drop, you may type in the name of the file. Just make sure that the program is in the same folder or directory. Your output files will also appear where the program is located.**
+**When adding files,you may drag and drop on to the terminal or if you have any issues with drag and drop, you may type in the name of the file(for windows, include ".txt"). Just make sure that the program is in the same folder or directory. Your output files will also appear where the program is located.**
 
 
 
