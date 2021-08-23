@@ -28,7 +28,7 @@ In other words I wanted to make specific changes while trying to keep it simple,
 1. Download Zip
 2. Extract File
 3. Compile the source
-4. Run on your preffered IDE
+4. Run on your preferred IDE
 
 **Alternative option**
 Download EXE file, only do this if you trust the program and you have looked at the source code
