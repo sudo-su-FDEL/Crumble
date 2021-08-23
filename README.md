@@ -27,7 +27,7 @@ In other words I wanted to make specific changes while trying to keep it simple,
 # Usage Windows
 1. Download Zip
 2. Extract File
-3. Compile the source (Don't forget the headers)
+3. Compile the source
 4. Run on your preffered IDE
 
 **Alternative option**
