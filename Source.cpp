@@ -108,6 +108,38 @@ void permute(string perm)
 	Permfile.close();
 }
 
+void add2wordlist(string add2)
+{
+	string file1, file2, file3;
+	string word;
+	string wordlist = " ";
+
+	cout << "Enter filename 1: "; cin >> file1;
+	cout << "Enter filename 2: "; cin >> file2;
+	cout << "Enter new filename: "; cin >> file3;
+
+	ifstream ifs1(file1);
+	ofstream ofs(file3);
+	while (true) {
+		ifs1 >> word;
+		if (ifs1.fail()) break;
+		ofs << word << endl;
+		wordlist += word + " ";
+	}
+	ifs1.close();
+	ifstream ifs2(file2);
+	while (true) {
+		ifs2 >> word;
+		if (ifs2.fail()) break;
+		if (wordlist.find(" " + word + " ") != string::npos) continue;
+		ofs << word << endl;
+	}
+	ifs2.close();
+	ofs.close();
+
+
+}
+
 
 //This function will replace a specified letter for another letter.
 void replace(string rplace)
@@ -769,7 +801,7 @@ int main()
 	//Variables for main
 	int del_L = 0;
 	int emt = 0;
-	string MFile2, MFile3, perm, rplace, wCount, s, Cr_list, cap, low;
+	string MFile2, MFile3, perm, rplace, wCount, s, Cr_list, cap, low,add2;
 	int Rnums = 0;
 	unsigned num = 9999999;
 	char choices;
@@ -871,10 +903,11 @@ int main()
 			do {
 				cout << "'*' manually input word(s) input\n";
 				cout << "\n [A] Replace letters";
-				cout << "\n [B] Swap*";
-				cout << "\n [C] Permute*";
-				cout << "\n [D] Capitalize first letter";
-				cout << "\n [E] Lowercase first letter\n";
+				cout << "\n [B] Add words to wordlist";
+				cout << "\n [C] Swap*";
+				cout << "\n [D] Permute*";
+				cout << "\n [E] Capitalize first letter";
+				cout << "\n [F] Lowercase first letter\n";
 				cout << "\n [Z] Go back\n";
 				cout << "Input: ";
 				cin >> Schar;
@@ -895,28 +928,37 @@ int main()
 				case 'b':
 
 					system("clear");
-					swap(s);
+					add2wordlist(add2);
 					system("clear");
 					break;
 
 
 
+
 				case 'C':
 				case 'c':
+
 					system("clear");
-					permute(perm);
+					swap(s);
 					system("clear");
 					break;
 
 				case 'D':
 				case 'd':
 					system("clear");
-					capitalize(cap);
+					permute(perm);
 					system("clear");
 					break;
 
 				case 'E':
 				case 'e':
+					system("clear");
+					capitalize(cap);
+					system("clear");
+					break;
+
+				case 'F':
+				case 'f':
 					lowercase(low);
 					system("clear");
 					break;
